@@ -1,0 +1,60 @@
+#w{
+   border: 3px solid;
+   display: flow-root;
+   box-shadow: 3px 3px 5px;
+}
+H1{
+    color:#000000;
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+#h{
+    text-shadow:3px 3px 5px white ;
+    
+    
+}
+#welcome{
+
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+.drop{
+    display: inline-block;
+}
+.drop{
+    background-color: aliceblue;
+    color: #000000;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.drop a{
+    display: block;
+    color: black;
+    text-decoration-line: none;
+    padding: 5px 10px;
+}
+.drop .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(205, 205, 205);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+.drop:hover .content{
+    display: block;
+}
+.drop:hover button{
+    background-color: rgb(155, 155, 155);
+}
+.drop a:hover{
+    background-color: rgb(174, 174, 174);
+}
+
+
